@@ -18,7 +18,14 @@ public class Diamond {
             
             // inner loop to print stars
             for (j = 1; j <= 2 * i - 1; j++) {
-                System.out.print("*");
+            	
+            	
+            if(j==1 || j==2*i-1) {
+          		   System.out.print("*");
+          	}else {
+          		 System.out.print(" ");
+          	}
+             
             }
             System.out.println();
         }
@@ -33,7 +40,13 @@ public class Diamond {
             
             // inner loop to print stars
             for (j = 1; j <= 2 * i - 1; j++) {
-                System.out.print("*");
+            	
+            	if(j==1 || j==2*i-1) {
+         		   System.out.print("*");
+         	}else {
+         		 System.out.print(" ");
+         	}
+            	
             }
             System.out.println();
         }	
