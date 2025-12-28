@@ -21,6 +21,7 @@ public static void main(String[] args) {
 			System.out.print(" ");
 		}
 		for(int j=1;j<=i;j++) {
+			// hi
 			System.out.print("* ");
 		}
 		System.out.println();
